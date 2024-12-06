@@ -1,0 +1,53 @@
+# Data pre-processing
+
+downsample_ratio: 4
+normalization: 'min_max'
+
+# Evaluation Method
+
+methodology: 'leave_one_out'
+
+# Data Path
+
+# dataset_path: '/local/scratch/yxu81/momentvsgpt/stanford_dataset/'
+
+# train_data: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/X_train_40Hz.npy'
+# train_label: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/y_train_40Hz.npy'
+# val_data: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/X_val_40Hz.npy'
+# val_label: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/y_val_40Hz.npy'
+# test_data: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/X_test_40Hz.npy'
+# test_label: '/mnt/beegfs/home/ywu60/dataset/bidmc_SpO2/y_test_40Hz.npy'
+
+
+# Model Config
+
+# Large
+
+#model_path: '/mnt/beegfs/projects/ywu60/moment_large'   # AutonLab/MOMENT-1-small
+
+# Small
+
+#model_path: 'AutonLab/MOMENT-1-small'   # 
+
+# Base
+
+model_path: 'AutonLab/MOMENT-1-small' 
+
+#task_name: 'regression'    #classification or regression
+n_channels: 12
+num_class: 15
+weight: [1, 1]
+freeze_encoder: False
+freeze_embedder: False
+
+# Training Config
+
+lr: 0.0001
+num_epochs: 200
+output_dir: '/local/scratch/yxu81/Physicial/results/'
+weight_decay: 0.001
+batch_size: 512
+scheduler_step_size: 20
+scheduler_gamma: 0.9
+save_model: False
+

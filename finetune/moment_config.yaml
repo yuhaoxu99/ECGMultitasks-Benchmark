@@ -1,0 +1,11 @@
+
+model_path: 'AutonLab/MOMENT-1-small' 
+
+#task_name: 'regression'    #classification or regression
+n_channels: 12
+num_class: 1
+weight: [1, 1]
+freeze_encoder: False
+freeze_embedder: False
+
+
