@@ -2,7 +2,6 @@ import torch
 import logging
 import argparse
 
-
 import numpy as np
 import random as random
 import torch.nn as nn
