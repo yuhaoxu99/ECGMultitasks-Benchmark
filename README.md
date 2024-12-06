@@ -12,3 +12,6 @@ We provide `.jsonl` file subset from the MIMIC-IV-ECG.
 The required packages can be installed by running `pip install -r requirements.txt`.
 
 For `ECG-FM` environment please refer the link [ECG-FM](https://github.com/bowang-lab/ECG-FM) and [fairseq-signals](https://github.com/Jwoo5/fairseq-signals).
+
+## 🚀Quick Start
+In `scripts` file we provide the shell script and change the `--task_name` to start evluating.
