@@ -1,7 +1,7 @@
 # ECGMultitasks-Benchmark
 Official code for "Are Foundation Models Useful for Electrocardiogram Analysis? A Multi-task Benchmark with Comprehensive Evaluations and Insightful Findings". 
 
-We provide a comprehensive benchmark to evaluate large language models, general time-series foundation models, and ECG foundation model in comparison with time-series deep learning models across five different types of downstream tasks under zero-shot, few-shot, and fine-tuning settings, including RR Interval Estimation, Age Estimation, Gender Classification, Potassium Abnormality Prediction and Arrhythmia Detection.
+We provide a comprehensive benchmark to evaluate **large language models**, **general time-series foundation models**, and **ECG foundation model** in comparison with **time-series deep learning models** across five different types of downstream tasks under **zero-shot**, **few-shot**, and **fine-tuning** settings, including **RR Interval Estimation**, **Age Estimation**, **Gender Classification**, **Potassium Abnormality Prediction** and **Arrhythmia Detection**.
 
 ## Prepare Dataset
 ### Prepare ECG Data
