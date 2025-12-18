@@ -1,5 +1,5 @@
 # ECGMultitasks-Benchmark
-Official code for "[An Electrocardiogram Multi-Task Benchmark with Comprehensive Evaluations and Insightful Findings](https://pubmed.ncbi.nlm.nih.gov/40776054/)". 
+Official code for "[An Electrocardiogram Multi-Task Benchmark with Comprehensive Evaluations and Insightful Findings](https://arxiv.org/abs/2512.08954)". This paper has been accepted by The 20th World Congress on Medical and Health Informatics (MedInfo 2025).
 
 We provide a comprehensive ECG multitasks benchmark to evaluate `large language models`, `general time-series foundation models`, and `ECG foundation model` in comparison with `time-series deep learning models` across five different types of downstream tasks under `zero-shot`, `few-shot`, and `fine-tuning` settings, including `RR Interval Estimation`, `Age Estimation`, `Gender Classification`, `Potassium Abnormality Prediction` and `Arrhythmia Detection`.
 
